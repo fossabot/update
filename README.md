@@ -1,4 +1,6 @@
 # k0s Update Server - Reference implementation
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fk0sproject%2Fupdate.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fk0sproject%2Fupdate?ref=badge_shield)
+
 
 This repo serves as k0s update server reference implementation. It provides the basic channels descriptions that is expected from an update server.
 
@@ -54,3 +56,7 @@ downloadURLs:
 ```
 
 So each channel can offer only single version to k0s autopilot client. In general the design pattern here is that each major.minor version will have their own channel where the latest patch release is offered.
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fk0sproject%2Fupdate.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fk0sproject%2Fupdate?ref=badge_large)
